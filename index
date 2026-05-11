@@ -1,0 +1,915 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="БашСтройКоттедж - строительство премиальных загородных домов и коттеджей."
+    />
+    <title>БашСтройКоттедж</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+    <link rel="stylesheet" href="css/visual-experiment.css" />
+  </head>
+  <body id="top" class="visual-experiment">
+    <header class="site-header" data-header>
+      <div class="container">
+        <div class="header__inner liquid-glass">
+          <a class="header__brand" href="/" aria-label="БашСтройКоттедж">
+            БашСтройКоттедж
+          </a>
+
+          <nav class="site-nav" aria-label="Основная навигация">
+            <a href="#top">О компании</a>
+            <a href="#projects">Проекты</a>
+            <a href="#packages">Комплектации</a>
+            <a href="#process">Процесс</a>
+            <a href="#mortgage">Ипотека</a>
+            <a href="#contacts">Контакты</a>
+          </nav>
+
+          <div class="header__right-actions">
+            <a class="header__phone" href="tel:+79638998877">
+              +7 (963) 899-88-77
+            </a>
+            <a class="btn btn-primary header__callback" href="#contacts">
+              Заказать звонок
+            </a>
+            <button
+              class="header__menu-button"
+              type="button"
+              aria-label="Открыть меню"
+              aria-expanded="false"
+              aria-controls="mobile-menu"
+              data-menu-toggle
+            >
+              Меню
+            </button>
+          </div>
+        </div>
+
+        <nav class="mobile-menu liquid-glass" id="mobile-menu" aria-label="Мобильная навигация" aria-hidden="true" data-mobile-menu>
+          <a href="#top">О компании</a>
+          <a href="#projects">Проекты</a>
+          <a href="#packages">Комплектации</a>
+          <a href="#process">Процесс</a>
+          <a href="#mortgage">Ипотека</a>
+          <a href="#contacts">Контакты</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero" aria-labelledby="hero-title" data-hero>
+        <div class="container">
+          <div class="hero__inner">
+            <div class="hero__content">
+              <h1 class="hero__title" id="hero-title">
+                Частные дома<br />
+                нового уровня
+              </h1>
+
+              <span class="hero__divider" aria-hidden="true"></span>
+
+              <p class="hero__text">
+                Проектируем и строим дома и коттеджи под ключ с гарантией
+                качества в Республике Башкортостан.
+              </p>
+
+              <div class="hero__actions" aria-label="Основные действия">
+                <a class="btn btn-primary hero__button" href="#projects">
+                  Смотреть проекты
+                </a>
+                <a class="btn btn-secondary hero__button" href="#contacts">
+                  Получить консультацию
+                </a>
+              </div>
+            </div>
+
+            <div class="hero__media" aria-label="Современный частный дом">
+              <img
+                class="hero__image"
+                src="images/new_hero-house.jpg"
+                alt=""
+                aria-hidden="true"
+              />
+              <div class="hero__image-placeholder" aria-hidden="true">
+                <span class="hero__sky-glow"></span>
+                <span class="hero__tree hero__tree--one"></span>
+                <span class="hero__tree hero__tree--two"></span>
+                <span class="hero__house-roof"></span>
+                <span class="hero__house-body"></span>
+                <span class="hero__house-wing"></span>
+                <span class="hero__house-glass hero__house-glass--one"></span>
+                <span class="hero__house-glass hero__house-glass--two"></span>
+                <span class="hero__house-glass hero__house-glass--three"></span>
+                <span class="hero__terrace"></span>
+                <span class="hero__path"></span>
+                <span class="hero__house-glow"></span>
+              </div>
+            </div>
+
+            <div class="hero__features liquid-glass" aria-label="Преимущества">
+              <article class="hero-feature">
+                <svg class="hero-feature__icon" viewBox="0 0 32 32" aria-hidden="true">
+                  <path d="M6 23 23 6l3 3L9 26H6v-3Z" />
+                  <path d="m19 10 3 3" />
+                  <path d="M7 7h6" />
+                  <path d="M10 4v6" />
+                </svg>
+                <div>
+                  <h2 class="hero-feature__title">Проектируем</h2>
+                  <p class="hero-feature__text">с учётом ваших идей</p>
+                </div>
+              </article>
+
+              <article class="hero-feature">
+                <svg class="hero-feature__icon" viewBox="0 0 32 32" aria-hidden="true">
+                  <path d="M16 4 26 8v7c0 6-4 10-10 13C10 25 6 21 6 15V8l10-4Z" />
+                  <path d="m11 16 3 3 7-8" />
+                </svg>
+                <div>
+                  <h2 class="hero-feature__title">Строим</h2>
+                  <p class="hero-feature__text">качественно и в срок</p>
+                </div>
+              </article>
+
+              <article class="hero-feature">
+                <svg class="hero-feature__icon" viewBox="0 0 32 32" aria-hidden="true">
+                  <path d="M5 21h6l5 4h6a4 4 0 0 0 4-4" />
+                  <path d="M5 15h5l5 4h5a3 3 0 0 1 3 3" />
+                  <path d="M22 9a4 4 0 1 1-8 0 4 4 0 0 1 8 0Z" />
+                  <path d="M18 7v4" />
+                </svg>
+                <div>
+                  <h2 class="hero-feature__title">Сдаём под ключ</h2>
+                  <p class="hero-feature__text">с чистовой отделкой</p>
+                </div>
+              </article>
+
+              <article class="hero-feature">
+                <svg class="hero-feature__icon" viewBox="0 0 32 32" aria-hidden="true">
+                  <path d="M26 9 13 22l-7-7" />
+                  <path d="M16 29a13 13 0 1 0 0-26 13 13 0 0 0 0 26Z" />
+                </svg>
+                <div>
+                  <h2 class="hero-feature__title">Гарантия</h2>
+                  <p class="hero-feature__text">до 5 лет</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="projects-section" id="projects" aria-labelledby="projects-title">
+        <div class="container">
+          <div class="projects-shell">
+            <div class="projects-header">
+              <div class="projects-header__content">
+                <h2 class="projects-title" id="projects-title">Проекты домов</h2>
+                <p class="projects-subtitle">
+                  Готовые и индивидуальные решения для жизни за городом
+                </p>
+              </div>
+
+              <div class="projects-controls" aria-label="Навигация по проектам">
+                <button
+                  class="projects-control liquid-glass"
+                  type="button"
+                  data-projects-prev
+                  aria-label="Предыдущие проекты"
+                >
+                  ←
+                </button>
+                <button
+                  class="projects-control liquid-glass"
+                  type="button"
+                  data-projects-next
+                  aria-label="Следующие проекты"
+                >
+                  →
+                </button>
+              </div>
+            </div>
+
+            <div class="projects-grid" data-projects-grid aria-live="polite"></div>
+            <div class="projects-carousel-indicator" aria-label="Навигация по проектам" data-projects-indicator>
+              <span class="projects-carousel-indicator__track" aria-hidden="true">
+                <span class="projects-carousel-indicator__progress" data-projects-progress></span>
+              </span>
+              <span class="projects-carousel-indicator__counter" data-projects-counter>1 / 4</span>
+            </div>
+
+            <div class="projects-benefits liquid-glass" aria-label="Преимущества проектов">
+              <div class="projects-benefit">
+                <svg class="projects-benefit__icon" viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M5 19V7l7-4 7 4v12" />
+                  <path d="M9 19v-7h6v7" />
+                </svg>
+                <span>Индивидуальные и типовые проекты</span>
+              </div>
+
+              <div class="projects-benefit">
+                <svg class="projects-benefit__icon" viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M4 18 18 4l2 2L6 20H4v-2Z" />
+                  <path d="m15 7 2 2" />
+                </svg>
+                <span>Бесплатная адаптация проекта под участок</span>
+              </div>
+
+              <div class="projects-benefit">
+                <svg class="projects-benefit__icon" viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M7 3h10v18H7z" />
+                  <path d="M10 8h4" />
+                  <path d="M10 12h4" />
+                  <path d="M10 16h2" />
+                </svg>
+                <span>Прозрачная смета без скрытых затрат</span>
+              </div>
+
+              <div class="projects-benefit">
+                <svg class="projects-benefit__icon" viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M12 21s7-5.2 7-11a7 7 0 0 0-14 0c0 5.8 7 11 7 11Z" />
+                  <path d="M12 12.5a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5Z" />
+                </svg>
+                <span>Помощь в подборе и оформлении участка</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="packages-section" id="packages" aria-labelledby="packages-title" data-reveal-section>
+        <div class="container">
+          <div class="packages-layout">
+            <article class="packages-card packages-card--levels liquid-glass">
+              <div class="packages-card__header">
+                <h2 class="packages-title" id="packages-title">Комплектации</h2>
+                <p class="packages-subtitle">
+                  Выберите подходящий уровень строительства
+                </p>
+              </div>
+
+              <div class="package-options">
+                <article class="package-option">
+                  <h3 class="package-option__title">Базовая</h3>
+                  <p class="package-option__text">
+                    Надёжный дом с продуманной планировкой
+                  </p>
+                  <ul class="package-option__list">
+                    <li>Фундамент</li>
+                    <li>Коробка дома</li>
+                    <li>Кровля</li>
+                    <li>Окна и двери</li>
+                  </ul>
+                  <p class="package-option__price">от 28 000 ₽/м²</p>
+                </article>
+
+                <article class="package-option package-option--featured">
+                  <span class="package-option__badge" aria-label="Рекомендуем">
+                    <svg viewBox="0 0 24 24">
+                      <path d="m12 4.8 1.9 4.2 4.6.5-3.4 3.1.9 4.5-4-2.3-4 2.3.9-4.5-3.4-3.1 4.6-.5L12 4.8Z" />
+                    </svg>
+                  </span>
+                  <h3 class="package-option__title">Оптимальная</h3>
+                  <p class="package-option__text">
+                    Оптимальное сочетание цены и качества
+                  </p>
+                  <ul class="package-option__list">
+                    <li>Всё из базовой</li>
+                    <li>Инженерные системы</li>
+                    <li>Утепление</li>
+                    <li>Подготовка под отделку</li>
+                  </ul>
+                  <p class="package-option__price">от 36 000 ₽/м²</p>
+                </article>
+
+                <article class="package-option">
+                  <h3 class="package-option__title">Премиальная</h3>
+                  <p class="package-option__text">
+                    Максимум комфорта и эстетики для жизни
+                  </p>
+                  <ul class="package-option__list">
+                    <li>Всё из оптимальной</li>
+                    <li>Дизайн-проект</li>
+                    <li>Чистовая отделка</li>
+                    <li>Благоустройство</li>
+                  </ul>
+                  <p class="package-option__price">от 48 000 ₽/м²</p>
+                </article>
+              </div>
+
+              <div class="package-carousel-indicator" aria-label="Навигация по комплектациям" data-package-indicator>
+                <button class="package-carousel-indicator__dot is-active" type="button" aria-label="Базовая" data-package-dot></button>
+                <button class="package-carousel-indicator__dot" type="button" aria-label="Оптимальная" data-package-dot></button>
+                <button class="package-carousel-indicator__dot" type="button" aria-label="Премиальная" data-package-dot></button>
+              </div>
+
+              <p class="packages-disclaimer">
+                Стоимость указана ориентировочно и не является публичной офертой.
+                Итоговая цена зависит от проекта, участка, материалов и выбранной
+                комплектации.
+              </p>
+            </article>
+
+            <article class="packages-card packages-card--mortgage liquid-glass" id="mortgage">
+              <div class="packages-card__header">
+                <h2 class="packages-title">Ипотека и эскроу</h2>
+                <p class="packages-subtitle">Строим безопасно и прозрачно</p>
+              </div>
+
+              <div class="mortgage-list">
+                <div class="mortgage-item">
+                  <span class="mortgage-item__icon liquid-glass" aria-hidden="true">
+                    <svg viewBox="0 0 24 24">
+                      <path d="M4 10h16" />
+                      <path d="M6 10V7l6-3 6 3v3" />
+                      <path d="M7 10v8" />
+                      <path d="M12 10v8" />
+                      <path d="M17 10v8" />
+                      <path d="M5 18h14" />
+                    </svg>
+                  </span>
+                  <div>
+                    <h3>Работаем с ведущими банками</h3>
+                    <p>
+                      Поможем подготовить данные для заявки и подобрать подходящие условия.
+                    </p>
+                  </div>
+                </div>
+
+                <div class="mortgage-item">
+                  <span class="mortgage-item__icon liquid-glass" aria-hidden="true">
+                    <svg viewBox="0 0 24 24">
+                      <path d="M12 3 19 6v5c0 4.6-2.8 7.8-7 10-4.2-2.2-7-5.4-7-10V6l7-3Z" />
+                      <path d="m8.5 12 2.2 2.2 4.8-5" />
+                    </svg>
+                  </span>
+                  <div>
+                    <h3>Эскроу-счёт защищает средства</h3>
+                    <p>
+                      Деньги хранятся на счёте в банке до завершения этапов строительства.
+                    </p>
+                  </div>
+                </div>
+
+                <div class="mortgage-item">
+                  <span class="mortgage-item__icon liquid-glass" aria-hidden="true">
+                    <svg viewBox="0 0 24 24">
+                      <path d="M7 4h10v16H7z" />
+                      <path d="M10 8h4" />
+                      <path d="M10 12h4" />
+                      <path d="M10 16h2" />
+                    </svg>
+                  </span>
+                  <div>
+                    <h3>Сопровождаем сделку</h3>
+                    <p>
+                      Объясним порядок оформления, документы и ключевые этапы до передачи дома.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <a class="btn btn-primary mortgage-button" href="#contacts">
+                Узнать условия
+              </a>
+
+              <div class="mortgage-visual" aria-hidden="true">
+                <svg class="mortgage-visual__art" viewBox="0 0 520 320">
+                  <defs>
+                    <linearGradient id="mortgage-house-line" x1="82" y1="69" x2="438" y2="246" gradientUnits="userSpaceOnUse">
+                      <stop stop-color="#d6b08b" stop-opacity="0.44" />
+                      <stop offset="1" stop-color="#9f714e" stop-opacity="0.14" />
+                    </linearGradient>
+                    <linearGradient id="mortgage-house-warm" x1="118" y1="133" x2="394" y2="236" gradientUnits="userSpaceOnUse">
+                      <stop stop-color="#fffaf3" stop-opacity="0.54" />
+                      <stop offset="1" stop-color="#d6b08b" stop-opacity="0.12" />
+                    </linearGradient>
+                  </defs>
+
+                  <g class="mortgage-visual__grid">
+                    <path d="M74 102h350" />
+                    <path d="M62 158h386" />
+                    <path d="M48 214h420" />
+                    <path d="M134 78v188" />
+                    <path d="M252 54v214" />
+                    <path d="M372 90v174" />
+                  </g>
+
+                  <g class="mortgage-visual__house" stroke="url(#mortgage-house-line)">
+                    <path d="M92 238V132l162-62 174 70v98" />
+                    <path d="M92 132h178l158 8" />
+                    <path d="M122 238v-76h104v76" fill="url(#mortgage-house-warm)" fill-opacity="0.18" />
+                    <path d="M262 238v-88h118v88" fill="url(#mortgage-house-warm)" fill-opacity="0.18" />
+                    <path d="M148 238v-52h50v52" />
+                    <path d="M292 176h64" />
+                    <path d="M292 202h64" />
+                    <path d="M270 132v106" />
+                    <path d="M120 162h105" />
+                    <path d="M120 188h105" />
+                    <path d="M84 260h356" />
+                    <path d="M128 282h260" />
+                  </g>
+
+                  <path class="mortgage-visual__surface" d="M104 242c70-18 142-20 214-6 42 8 76 6 116-8" />
+                  <path class="mortgage-visual__surface" d="M142 268c54-10 112-12 174-4 34 4 62 3 96-4" />
+                </svg>
+
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="process-section" id="process" aria-labelledby="process-title" data-reveal-section>
+        <div class="container">
+          <div class="process-shell">
+            <header class="process-header">
+              <div class="process-header__content">
+                <h2 class="process-title" id="process-title">
+                  Прозрачный процесс — от идеи до вашего дома
+                </h2>
+                <p class="process-description">
+                  Каждый этап фиксируем заранее: от проекта и сметы до строительства,
+                  контроля качества и передачи ключей.
+                </p>
+              </div>
+              <div class="process-visual" aria-hidden="true">
+                <svg viewBox="0 0 360 180" fill="none">
+                  <path class="process-visual__grid" d="M28 142H330M28 106H330M28 70H330M70 28V158M142 28V158M214 28V158M286 28V158" />
+                  <path class="process-visual__house" d="M72 132V82l78-46 78 46v50M96 132V95h108v37M124 132v-26h52v26M72 132h156" />
+                  <path class="process-visual__line" d="M238 72c31 4 55 18 72 42M254 100h64M276 124h38" />
+                  <circle class="process-visual__point" cx="238" cy="72" r="5" />
+                  <circle class="process-visual__point" cx="254" cy="100" r="5" />
+                  <circle class="process-visual__point" cx="276" cy="124" r="5" />
+                </svg>
+              </div>
+            </header>
+
+            <div class="process-timeline" aria-label="Этапы строительства">
+              <article class="process-step" style="--step-index: 1">
+                <div class="process-step__top">
+                  <span class="process-step__number liquid-glass">01</span>
+                  <span class="process-step__icon liquid-glass" aria-hidden="true">
+                    <svg viewBox="0 0 24 24">
+                      <path d="M5 7.5h14v8H9l-4 3v-11Z" />
+                      <path d="M8.5 10.5h7" />
+                      <path d="M8.5 13h4.5" />
+                    </svg>
+                  </span>
+                </div>
+                <h3 class="process-step__title">Консультация</h3>
+                <p class="process-step__text">
+                  Обсуждаем пожелания, участок, бюджет и подбираем оптимальный формат дома.
+                </p>
+              </article>
+
+              <article class="process-step" style="--step-index: 2">
+                <div class="process-step__top">
+                  <span class="process-step__number liquid-glass">02</span>
+                  <span class="process-step__icon liquid-glass" aria-hidden="true">
+                    <svg viewBox="0 0 24 24">
+                      <path d="M7 4.5h8l3 3V20H7z" />
+                      <path d="M15 4.8V8h3" />
+                      <path d="m9.5 15.5 4.8-4.8 1.7 1.7-4.8 4.8-2.1.4.4-2.1Z" />
+                    </svg>
+                  </span>
+                </div>
+                <h3 class="process-step__title">Проект и смета</h3>
+                <p class="process-step__text">
+                  Подбираем или адаптируем проект, рассчитываем комплектацию и предварительную стоимость.
+                </p>
+              </article>
+
+              <article class="process-step" style="--step-index: 3">
+                <div class="process-step__top">
+                  <span class="process-step__number liquid-glass">03</span>
+                  <span class="process-step__icon liquid-glass" aria-hidden="true">
+                    <svg viewBox="0 0 24 24">
+                      <path d="M7 4.5h10v15H7z" />
+                      <path d="M10 8h4" />
+                      <path d="M10 11h4" />
+                      <path d="M9 16c1.7-1.6 3.1-1.6 4.3 0 .9.9 1.8.9 2.7 0" />
+                    </svg>
+                  </span>
+                </div>
+                <h3 class="process-step__title">Договор</h3>
+                <p class="process-step__text">
+                  Фиксируем этапы, сроки, материалы и порядок взаимодействия.
+                </p>
+              </article>
+
+              <article class="process-step" style="--step-index: 4">
+                <div class="process-step__top">
+                  <span class="process-step__number liquid-glass">04</span>
+                  <span class="process-step__icon liquid-glass" aria-hidden="true">
+                    <svg viewBox="0 0 24 24">
+                      <path d="M4.5 19V10.5L12 5l7.5 5.5V19" />
+                      <path d="M8 19v-5h8v5" />
+                      <path d="M4.5 19h15" />
+                      <path d="M7 11.5h10" />
+                    </svg>
+                  </span>
+                </div>
+                <h3 class="process-step__title">Строительство</h3>
+                <p class="process-step__text">
+                  Выполняем работы по проекту с контролем этапов и соблюдением технологий.
+                </p>
+              </article>
+
+              <article class="process-step" style="--step-index: 5">
+                <div class="process-step__top">
+                  <span class="process-step__number liquid-glass">05</span>
+                  <span class="process-step__icon liquid-glass" aria-hidden="true">
+                    <svg viewBox="0 0 24 24">
+                      <path d="M12 3.8 18 6v5c0 3.8-2.2 6.7-6 8.6-3.8-1.9-6-4.8-6-8.6V6l6-2.2Z" />
+                      <path d="m8.8 12 2.1 2 4.4-4.6" />
+                    </svg>
+                  </span>
+                </div>
+                <h3 class="process-step__title">Контроль качества</h3>
+                <p class="process-step__text">
+                  Проверяем ключевые узлы, материалы и соответствие работ договорённостям.
+                </p>
+              </article>
+
+              <article class="process-step" style="--step-index: 6">
+                <div class="process-step__top">
+                  <span class="process-step__number liquid-glass">06</span>
+                  <span class="process-step__icon liquid-glass" aria-hidden="true">
+                    <svg viewBox="0 0 24 24">
+                      <path d="M8.1 14.2a3.8 3.8 0 1 0 0-7.6 3.8 3.8 0 0 0 0 7.6Z" />
+                      <path d="M11.7 10.4h8.9" />
+                      <path d="M16.2 10.4v2.5" />
+                      <path d="M18.8 10.4v1.7" />
+                      <path d="M8.1 10.4h.1" />
+                    </svg>
+                  </span>
+                </div>
+                <h3 class="process-step__title">Сдача дома</h3>
+                <p class="process-step__text">
+                  Передаём готовый дом, документы и остаёмся на связи после завершения работ.
+                </p>
+              </article>
+            </div>
+
+            <div class="process-cta liquid-glass">
+              <div>
+                <h3>Хотите понять, с чего начать?</h3>
+                <p>
+                  Оставьте заявку — мы подскажем, какой проект подойдёт под ваш участок,
+                  бюджет и сроки.
+                </p>
+              </div>
+              <a class="btn btn-primary process-cta__button" href="#contacts">
+                Получить консультацию
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="portfolio-section" id="portfolio" aria-labelledby="portfolio-title" data-reveal-section>
+        <div class="container">
+          <div class="portfolio-shell">
+            <header class="portfolio-header">
+              <h2 class="portfolio-title" id="portfolio-title">
+                Архитектура, детали и настроение будущего дома
+              </h2>
+            </header>
+
+            <div class="portfolio-filters" aria-label="Фильтр портфолио">
+              <button class="portfolio-filter is-active liquid-glass" type="button" data-portfolio-filter="all">
+                Все
+              </button>
+              <button class="portfolio-filter liquid-glass" type="button" data-portfolio-filter="facades">
+                Фасады
+              </button>
+              <button class="portfolio-filter liquid-glass" type="button" data-portfolio-filter="interiors" hidden>
+                Интерьеры
+              </button>
+              <button class="portfolio-filter liquid-glass" type="button" data-portfolio-filter="plans">
+                Планировки
+              </button>
+              <button class="portfolio-filter liquid-glass" type="button" data-portfolio-filter="build" hidden>
+                Стройка
+              </button>
+            </div>
+
+            <div class="portfolio-grid">
+              <button
+                class="portfolio-item portfolio-item--large"
+                type="button"
+                data-portfolio-item
+                data-category="facades"
+                data-title="Фасад современного дома"
+                data-category-label="Фасады"
+                data-image="images/portfolio-facade-1.jpg"
+                style="--portfolio-index: 1"
+              >
+                <span class="portfolio-item__media">
+                  <img class="portfolio-item__image" src="images/portfolio-facade-1.jpg" alt="Фасад современного дома" loading="lazy" />
+                  <span class="portfolio-placeholder portfolio-placeholder--facade" aria-hidden="true">
+                    <span class="portfolio-placeholder__sun"></span>
+                    <span class="portfolio-placeholder__grid"></span>
+                    <span class="portfolio-placeholder__house"></span>
+                    <span class="portfolio-placeholder__roof"></span>
+                    <span class="portfolio-placeholder__window portfolio-placeholder__window--one"></span>
+                    <span class="portfolio-placeholder__window portfolio-placeholder__window--two"></span>
+                    <span class="portfolio-placeholder__land"></span>
+                  </span>
+                </span>
+                <span class="portfolio-item__overlay liquid-glass">
+                  <span class="portfolio-item__category">Фасады</span>
+                  <span class="portfolio-item__title">Фасад современного дома</span>
+                </span>
+              </button>
+
+              <button
+                class="portfolio-item"
+                type="button"
+                data-portfolio-item
+                data-category="facades"
+                data-title="Фасад с архитектурными деталями"
+                data-category-label="Фасады"
+                data-image="images/portfolio-facade-2.jpg"
+                style="--portfolio-index: 2"
+              >
+                <span class="portfolio-item__media">
+                  <img class="portfolio-item__image" src="images/portfolio-facade-2.jpg" alt="Фасад с архитектурными деталями" loading="lazy" />
+                  <span class="portfolio-placeholder portfolio-placeholder--interior" aria-hidden="true">
+                    <span class="portfolio-placeholder__grid"></span>
+                    <span class="portfolio-placeholder__room"></span>
+                    <span class="portfolio-placeholder__sofa"></span>
+                    <span class="portfolio-placeholder__lamp"></span>
+                    <span class="portfolio-placeholder__window portfolio-placeholder__window--one"></span>
+                  </span>
+                </span>
+                <span class="portfolio-item__overlay liquid-glass">
+                  <span class="portfolio-item__category">Фасады</span>
+                  <span class="portfolio-item__title">Фасад с архитектурными деталями</span>
+                </span>
+              </button>
+
+              <button
+                class="portfolio-item"
+                type="button"
+                data-portfolio-item
+                data-category="plans"
+                data-title="Планировочное решение"
+                data-category-label="Планировки"
+                data-image="images/portfolio-plan-1.jpg"
+                style="--portfolio-index: 3"
+              >
+                <span class="portfolio-item__media">
+                  <img class="portfolio-item__image" src="images/portfolio-plan-1.jpg" alt="Планировочное решение" loading="lazy" />
+                  <span class="portfolio-placeholder portfolio-placeholder--plan" aria-hidden="true">
+                    <span class="portfolio-placeholder__grid"></span>
+                    <span class="portfolio-placeholder__plan"></span>
+                    <span class="portfolio-placeholder__plan-room portfolio-placeholder__plan-room--one"></span>
+                    <span class="portfolio-placeholder__plan-room portfolio-placeholder__plan-room--two"></span>
+                    <span class="portfolio-placeholder__plan-room portfolio-placeholder__plan-room--three"></span>
+                  </span>
+                </span>
+                <span class="portfolio-item__overlay liquid-glass">
+                  <span class="portfolio-item__category">Планировки</span>
+                  <span class="portfolio-item__title">Планировочное решение</span>
+                </span>
+              </button>
+
+              <button
+                class="portfolio-item portfolio-item--wide"
+                type="button"
+                data-portfolio-item
+                data-category="plans"
+                data-title="3D-планировка дома"
+                data-category-label="Планировки"
+                data-image="images/portfolio-plan-3d.jpg"
+                style="--portfolio-index: 4"
+              >
+                <span class="portfolio-item__media">
+                  <img class="portfolio-item__image" src="images/portfolio-plan-3d.jpg" alt="3D-планировка дома" loading="lazy" />
+                  <span class="portfolio-placeholder portfolio-placeholder--build" aria-hidden="true">
+                    <span class="portfolio-placeholder__grid"></span>
+                    <span class="portfolio-placeholder__frame"></span>
+                    <span class="portfolio-placeholder__beam portfolio-placeholder__beam--one"></span>
+                    <span class="portfolio-placeholder__beam portfolio-placeholder__beam--two"></span>
+                    <span class="portfolio-placeholder__land"></span>
+                  </span>
+                </span>
+                <span class="portfolio-item__overlay liquid-glass">
+                  <span class="portfolio-item__category">Планировки</span>
+                  <span class="portfolio-item__title">3D-планировка дома</span>
+                </span>
+              </button>
+
+            </div>
+
+            <div class="portfolio-cta liquid-glass">
+              <div>
+                <h3>Хотите увидеть больше примеров и подобрать стиль дома?</h3>
+                <p>
+                  Оставьте заявку — покажем подходящие проекты, планировки и варианты комплектаций.
+                </p>
+              </div>
+              <a class="btn btn-primary portfolio-cta__button" href="#contacts" data-open-modal>
+                Подобрать проект
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="portfolio-lightbox" aria-hidden="true" data-portfolio-lightbox>
+          <button class="portfolio-lightbox__backdrop" type="button" data-portfolio-close aria-label="Закрыть просмотр"></button>
+          <div class="portfolio-lightbox__dialog liquid-glass" role="dialog" aria-modal="true" aria-labelledby="portfolio-lightbox-title">
+            <button class="portfolio-lightbox__close liquid-glass" type="button" data-portfolio-close aria-label="Закрыть">
+              ×
+            </button>
+            <div class="portfolio-lightbox__media">
+              <img class="portfolio-lightbox__image" src="" alt="" data-portfolio-lightbox-image />
+              <div class="portfolio-lightbox__placeholder portfolio-placeholder portfolio-placeholder--facade" data-portfolio-lightbox-placeholder aria-hidden="true">
+                <span class="portfolio-placeholder__sun"></span>
+                <span class="portfolio-placeholder__grid"></span>
+                <span class="portfolio-placeholder__house"></span>
+                <span class="portfolio-placeholder__roof"></span>
+                <span class="portfolio-placeholder__window portfolio-placeholder__window--one"></span>
+                <span class="portfolio-placeholder__window portfolio-placeholder__window--two"></span>
+                <span class="portfolio-placeholder__land"></span>
+              </div>
+            </div>
+            <div class="portfolio-lightbox__content">
+              <p class="portfolio-lightbox__category" data-portfolio-lightbox-category></p>
+              <h3 id="portfolio-lightbox-title" data-portfolio-lightbox-title></h3>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="contacts-section" id="contacts" aria-labelledby="contacts-title" data-reveal-section>
+        <div class="container">
+          <div class="contacts-shell">
+            <div class="contacts-content">
+              <h2 class="contacts-title" id="contacts-title">
+                Поможем выбрать дом, который подойдёт именно вам
+              </h2>
+              <p class="contacts-description">
+                Оставьте заявку — мы свяжемся с вами, уточним задачу, расскажем о проектах,
+                комплектациях и вариантах строительства.
+              </p>
+
+              <div class="contacts-list" aria-label="Контактная информация">
+                <div class="contacts-item liquid-glass">
+                  <span class="contacts-item__icon" aria-hidden="true">
+                    <svg viewBox="0 0 24 24" fill="none">
+                      <path d="M6.6 4.8 8.7 4l2.1 4.6-1.5 1.1c.9 1.9 2.4 3.4 4.1 4.3l1.2-1.5 4.5 2.1-.7 2.2c-.3.9-1.1 1.5-2 1.4C10.5 17.8 6.2 13.5 5.2 7.6c-.2-1 .4-2.4 1.4-2.8Z" />
+                    </svg>
+                  </span>
+                  <div>
+                    <span class="contacts-item__label">Телефон</span>
+                    <a class="contacts-item__value" href="tel:+79638998877">+7 (963) 899-88-77</a>
+                  </div>
+                </div>
+
+                <div class="contacts-item liquid-glass">
+                  <span class="contacts-item__icon" aria-hidden="true">
+                    <svg viewBox="0 0 24 24" fill="none">
+                      <path d="M12 20s6-5.1 6-10a6 6 0 1 0-12 0c0 4.9 6 10 6 10Z" />
+                      <path d="M12 12.2a2.2 2.2 0 1 0 0-4.4 2.2 2.2 0 0 0 0 4.4Z" />
+                    </svg>
+                  </span>
+                  <div>
+                    <span class="contacts-item__label">Офис</span>
+                    <span class="contacts-item__value">г. Стерлитамак, ул. Артёма, 53Б, 201 кабинет</span>
+                  </div>
+                </div>
+
+                <div class="contacts-item liquid-glass">
+                  <span class="contacts-item__icon" aria-hidden="true">
+                    <svg viewBox="0 0 24 24" fill="none">
+                      <path d="M12 21a9 9 0 1 0 0-18 9 9 0 0 0 0 18Z" />
+                      <path d="M12 7v5l3.2 2" />
+                    </svg>
+                  </span>
+                  <div>
+                    <span class="contacts-item__label">График</span>
+                    <span class="contacts-item__value">Пн–Пт: 09:00–18:00</span>
+                    <span class="contacts-item__hint">Суббота — по предварительной записи</span>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+
+            <form class="lead-form liquid-glass" action="#" data-lead-form novalidate>
+              <div class="lead-form__header">
+                <h3>Оставить заявку</h3>
+                <p>Заполните форму — специалист свяжется с вами для консультации.</p>
+              </div>
+
+              <label class="lead-field">
+                <span>Имя</span>
+                <input type="text" name="name" placeholder="Ваше имя" autocomplete="name" required />
+              </label>
+
+              <label class="lead-field">
+                <span>Телефон</span>
+                <input type="tel" name="phone" placeholder="+7 (___) ___-__-__" autocomplete="tel" required />
+              </label>
+
+              <label class="lead-field">
+                <span>Что интересует</span>
+                <select name="interest">
+                  <option>Дом под ключ</option>
+                  <option>Коттедж</option>
+                  <option>Проект</option>
+                  <option>Ипотека</option>
+                  <option>Консультация</option>
+                </select>
+              </label>
+
+              <label class="lead-field">
+                <span>Комментарий</span>
+                <textarea name="comment" rows="4" placeholder="Расскажите коротко о задаче"></textarea>
+              </label>
+
+              <label class="lead-consent">
+                <input type="checkbox" name="consent" required />
+                <span>Согласен на обработку персональных данных</span>
+              </label>
+
+              <button class="btn btn-primary lead-form__button" type="submit">
+                Отправить заявку
+              </button>
+              <p class="lead-form__message" data-lead-message role="status" aria-live="polite"></p>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer" data-reveal-section>
+      <div class="container">
+        <div class="site-footer__shell liquid-glass">
+          <div class="site-footer__grid">
+            <div class="site-footer__brand">
+              <a class="site-footer__logo" href="#top">БашСтройКоттедж</a>
+              <p>
+                Строительство частных домов, коттеджей, беседок и саун под ключ
+                в Стерлитамаке и по всей Республике Башкортостан.
+              </p>
+              <div class="site-footer__socials" aria-label="Социальные сети">
+                <a class="site-footer__social liquid-glass" href="#" aria-label="VK"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4.3 7.1h3.1c.1 2.8 1.3 5.1 2.4 5.1.4 0 .6-.3.6-.9V7.1h2.9v3.1c0 .4.2.6.5.6.9 0 1.8-1.8 2.1-3.7h3c-.3 2.3-1.4 4.2-2.7 5.1 1.3.8 2.5 2.6 3.1 4.7h-3.2c-.4-1.3-1.3-2.8-2.1-2.8-.4 0-.7.3-.7.8v2h-1.4c-3.5 0-6.5-3.3-7.6-9.8Z" /></svg></a>
+                <a class="site-footer__social liquid-glass" href="#" aria-label="Telegram"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.3 4.7 17.4 19c-.2.9-.8 1.1-1.5.7l-4.2-3.1-2 1.9c-.2.2-.4.4-.9.4l.3-4.3 7.8-7c.3-.3-.1-.5-.5-.2l-9.6 6-4.1-1.3c-.9-.3-.9-.9.2-1.3L19 4.3c.8-.3 1.5.2 1.3.4Z" /></svg></a>
+                <a class="site-footer__social liquid-glass" href="#" aria-label="WhatsApp"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 4.3a7.4 7.4 0 0 0-6.3 11.2L4.8 19l3.6-.9A7.4 7.4 0 1 0 12 4.3Zm4.3 10.5c-.2.7-1.2 1.3-1.9 1.4-.5.1-1.1.1-1.8-.1-3-.9-5-3.5-5.2-3.7-.1-.2-1.2-1.6-1.2-3 0-1.4.7-2.1 1-2.4.2-.3.5-.3.7-.3h.5c.2 0 .4 0 .6.5.2.6.8 2 .9 2.1.1.2.1.4 0 .6-.1.2-.2.3-.4.5-.1.2-.3.3-.4.5-.1.2-.2.4 0 .6.2.3.8 1.3 1.8 2.1 1.2 1.1 2.2 1.4 2.6 1.5.3.1.5.1.7-.1.2-.3.8-1 1-1.3.2-.3.4-.2.7-.1.3.1 1.8.8 2.1 1 .3.1.5.2.6.3.1 0 .1.5-.1.9Z" /></svg></a>
+              </div>
+            </div>
+
+            <nav class="site-footer__column" aria-label="Компания">
+              <h3>Компания</h3>
+              <a href="#top">О компании</a>
+              <a href="#projects">Преимущества</a>
+              <a href="#process">Процесс строительства</a>
+              <a href="#packages">Гарантии</a>
+            </nav>
+
+            <nav class="site-footer__column" aria-label="Услуги">
+              <h3>Услуги</h3>
+              <a href="#projects">Проектирование домов</a>
+              <a href="#packages">Строительство под ключ</a>
+              <a href="#packages">Комплектации</a>
+              <a href="#packages">Ипотека и эскроу</a>
+              <a href="#packages">Комплектация и отделка</a>
+            </nav>
+
+            <nav class="site-footer__column" aria-label="Проекты">
+              <h3>Проекты</h3>
+              <a href="#projects">Каталог проектов</a>
+              <a href="#projects">Популярные проекты</a>
+              <a href="#contacts">Индивидуальные решения</a>
+              <a href="#portfolio">Галерея</a>
+            </nav>
+
+            <div class="site-footer__contacts">
+              <h3>Связаться</h3>
+              <a class="site-footer__phone" href="tel:+79638998877">+7 (963) 899-88-77</a>
+              <p>г. Стерлитамак, ул. Артёма, 53Б</p>
+              <p>Пн–Пт: 09:00–18:00</p>
+            </div>
+          </div>
+
+          <div class="site-footer__bottom">
+            <p>&copy; <span id="current-year"></span> БашСтройКоттедж</p>
+            <a href="#">Политика конфиденциальности</a>
+            <a href="#">Согласие на обработку персональных данных</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="js/visual-experiment.js"></script>
+  </body>
+</html>
